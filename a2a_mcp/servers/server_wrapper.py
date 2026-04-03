@@ -1,7 +1,9 @@
 import asyncio
 
 import uvicorn
-
+import time
+import uuid
+from utils.metrics import metrics
 from a2a.server.agent_execution import AgentExecutor, RequestContext
 from a2a.server.apps import A2AStarletteApplication
 from a2a.server.events import EventQueue
@@ -59,21 +61,83 @@ class ADKAgentExecutor(AgentExecutor):
         """Cancel the execution of a specific task."""
         # Implementation for cancelling tasks
 
+    # async def execute(self, context: RequestContext, event_queue: EventQueue) -> None:
+    #     query = context.get_user_input()
+    #     task = context.current_task or new_task(context.message)
+    #     await event_queue.enqueue_event(task)
+
+    #     updater = TaskUpdater(event_queue, task.id, task.contextId)
+
+    #     try:
+    #         # Update status with custom message
+    #         await updater.update_status(
+    #             TaskState.working,
+    #             new_agent_text_message(self.status_message, task.contextId, task.id)
+    #         )
+
+    #         # Process with ADK agent
+    #         session = await self.runner.session_service.create_session(
+    #             app_name=self.agent.name,
+    #             user_id="a2a_user",
+    #             state={},
+    #             session_id=task.contextId,
+    #         )
+
+    #         content = types.Content(
+    #             role='user',
+    #             parts=[types.Part.from_text(text=query)]
+    #         )
+
+    #         response_text = ""
+    #         async for event in self.runner.run_async(
+    #             user_id="a2a_user",
+    #             session_id=session.id,
+    #             new_message=content
+    #         ):
+    #             if event.is_final_response() and event.content and event.content.parts:
+    #                 for part in event.content.parts:
+    #                     if hasattr(part, 'text') and part.text:
+    #                         response_text += part.text + '\n'
+    #                     elif hasattr(part, 'function_call'):
+    #                         # Log or handle function calls if needed
+    #                         pass  # Function calls are handled internally by ADK
+
+    #         # Add response as artifact with custom name
+    #         await updater.add_artifact(
+    #             [Part(root=TextPart(text=response_text))],
+    #             name=self.artifact_name
+    #         )
+
+    #         await updater.complete()
+
+    #     except Exception as e:
+    #         await updater.update_status(
+    #             TaskState.failed,
+    #             new_agent_text_message(f"Error: {e!s}", task.contextId, task.id),
+    #             final=True
+    #         )
     async def execute(self, context: RequestContext, event_queue: EventQueue) -> None:
+        trace_id = uuid.uuid4().hex
+
+        start_total = time.perf_counter()
+
         query = context.get_user_input()
         task = context.current_task or new_task(context.message)
+
         await event_queue.enqueue_event(task)
 
         updater = TaskUpdater(event_queue, task.id, task.contextId)
 
         try:
-            # Update status with custom message
+            # --- Mark task as working ---
             await updater.update_status(
                 TaskState.working,
                 new_agent_text_message(self.status_message, task.contextId, task.id)
             )
 
-            # Process with ADK agent
+            # --- Start decision latency ---
+            decision_start = time.perf_counter()
+
             session = await self.runner.session_service.create_session(
                 app_name=self.agent.name,
                 user_id="a2a_user",
@@ -87,6 +151,7 @@ class ADKAgentExecutor(AgentExecutor):
             )
 
             response_text = ""
+
             async for event in self.runner.run_async(
                 user_id="a2a_user",
                 session_id=session.id,
@@ -97,10 +162,27 @@ class ADKAgentExecutor(AgentExecutor):
                         if hasattr(part, 'text') and part.text:
                             response_text += part.text + '\n'
                         elif hasattr(part, 'function_call'):
-                            # Log or handle function calls if needed
-                            pass  # Function calls are handled internally by ADK
+                            pass  # handled internally
 
-            # Add response as artifact with custom name
+            decision_latency = time.perf_counter() - decision_start
+
+            metrics.record(
+                "agent_decision_latency",
+                decision_latency,
+                tags={
+                    "agent": self.agent.name,
+                    "trace_id": trace_id
+                }
+            )
+
+            # --- Response size (useful for cost proxy) ---
+            metrics.record(
+                "agent_response_size",
+                len(response_text),
+                tags={"agent": self.agent.name}
+            )
+
+            # --- Add artifact ---
             await updater.add_artifact(
                 [Part(root=TextPart(text=response_text))],
                 name=self.artifact_name
@@ -108,7 +190,48 @@ class ADKAgentExecutor(AgentExecutor):
 
             await updater.complete()
 
+            # --- Total latency ---
+            total_latency = time.perf_counter() - start_total
+
+            metrics.record(
+                "agent_total_latency",
+                total_latency,
+                tags={
+                    "agent": self.agent.name,
+                    "trace_id": trace_id
+                }
+            )
+
+            metrics.event(
+                "agent_success",
+                {
+                    "agent": self.agent.name,
+                    "trace_id": trace_id
+                }
+            )
+
         except Exception as e:
+            total_latency = time.perf_counter() - start_total
+
+            metrics.record(
+                "agent_total_latency",
+                total_latency,
+                tags={
+                    "agent": self.agent.name,
+                    "trace_id": trace_id,
+                    "status": "failed"
+                }
+            )
+
+            metrics.event(
+                "agent_failure",
+                {
+                    "agent": self.agent.name,
+                    "trace_id": trace_id,
+                    "error": str(e)
+                }
+            )
+
             await updater.update_status(
                 TaskState.failed,
                 new_agent_text_message(f"Error: {e!s}", task.contextId, task.id),
