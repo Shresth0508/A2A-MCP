@@ -1,0 +1,22 @@
+{
+  "simple": {
+    "count": 28,
+    "avg_latency": 0.3332894035714032,
+    "median_latency": 0.3086828499999683,
+    "p95_latency": 0.4324056349996681,
+    "stddev_latency": 0.05685912316508018,
+    "avg_response_size": 2234.3571428571427
+  },
+  "complex": {
+    "count": 30,
+    "avg_latency": 0.34893396666654247,
+    "median_latency": 0.312521599998945,
+    "p95_latency": 0.5739738649999704,
+    "stddev_latency": 0.10460679919612623,
+    "avg_response_size": 2315.266666666667
+  },
+  "overall": {
+    "total_requests": 58,
+    "correlation_complexity_latency": 0.091612637527926
+  }
+}

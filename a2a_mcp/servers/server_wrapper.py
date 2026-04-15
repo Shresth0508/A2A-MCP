@@ -126,13 +126,13 @@ class ADKAgentExecutor(AgentExecutor):
 
         await event_queue.enqueue_event(task)
 
-        updater = TaskUpdater(event_queue, task.id, task.contextId)
+        updater = TaskUpdater(event_queue, task.id, task.context_id)
 
         try:
             # --- Mark task as working ---
             await updater.update_status(
                 TaskState.working,
-                new_agent_text_message(self.status_message, task.contextId, task.id)
+                new_agent_text_message(self.status_message, task.context_id, task.id)
             )
 
             # --- Start decision latency ---
@@ -142,7 +142,7 @@ class ADKAgentExecutor(AgentExecutor):
                 app_name=self.agent.name,
                 user_id="a2a_user",
                 state={},
-                session_id=task.contextId,
+                session_id=task.context_id,
             )
 
             content = types.Content(
@@ -234,7 +234,7 @@ class ADKAgentExecutor(AgentExecutor):
 
             await updater.update_status(
                 TaskState.failed,
-                new_agent_text_message(f"Error: {e!s}", task.contextId, task.id),
+                new_agent_text_message(f"Error: {e!s}", task.context_id, task.id),
                 final=True
             )
 

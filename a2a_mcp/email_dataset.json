@@ -1,0 +1,582 @@
+[
+  {
+    "id": "complex_1",
+    "category": "complex",
+    "sender": "ayesha_khan@example.com",
+    "subject": "Request for a New Credit Card",
+    "body": "Dear Bank Team,\n\nI would like to apply for a new credit card. I am currently self-employed with a monthly income of $7000. I already have a business credit card but need a personal one with enhanced travel benefits.\n\nHere are my details:\n- Full Name: Ayesha Khan\n- Contact Number: +1987654321\n- Address: 456 Elm Avenue, Rivertown\n- Employment Type: Self-Employed\n- Monthly Income: $7000\n- Existing Credit Card: Yes\n- Requested Credit Limit: $20000\n\nPlease find my identification documents attached.\n\nThanks,\nAyesha Khan",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["passport_scan.pdf", "utility_bill.pdf"]
+  },
+  {
+    "id": "complex_2",
+    "category": "complex",
+    "sender": "neha.singh@example.com",
+    "subject": "Report: Suspicious Transaction on Credit Card",
+    "body": "Dear Fraud Investigation Team,\n\nI am reporting a suspicious transaction that occurred on my credit card account. I received an alert for a charge of $620 from a merchant I've never interacted with.\n\nHere are my details:\n- Full Name: Neha Singh\n- Email: neha.singh@example.com\n- Contact Number: +919001234567\n- Account Number: 532410987654\n- Fraud Type: Credit Card Misuse\n- Transaction Details: $620 charge at 'ShopNow Inc.' on 2025-07-25\n- Reported Date: 2025-07-29\n\nPlease look into this urgently.\n\nRegards,\nNeha Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["credit_card_statement.pdf", "suspicious_transaction.png"]
+  },
+  {
+    "id": "simple_1",
+    "category": "simple",
+    "sender": "john.doe@example.com",
+    "subject": "Application for a New Credit Card",
+    "body": "Dear Bank Team,\n\nI would like to apply for a new credit card. I am currently salaried with a monthly income of $5000. I have an existing credit card but would like an additional one with a higher limit.\n\nHere are my details:\n- Full Name: John Doe\n- Contact Number: +1234567890\n- Address: 123 Main Street, Springfield\n- Employment Type: Salaried\n- Monthly Income: $5000\n- Existing Credit Card: Yes\n- Requested Credit Limit: $15000\n\nPlease find my identification documents attached.\n\nThanks,\nJohn Doe",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["id_proof.pdf", "address_proof.pdf"]
+  },
+  {
+    "id": "simple_2",
+    "category": "simple",
+    "sender": "rahul.sharma@example.com",
+    "subject": "Update Contact Number",
+    "body": "Dear Bank Support,\n\nI recently changed my phone number and would like to update it in my bank account records.\n\nHere are my details:\n- Full Name: Rahul Sharma\n- Account Number: 784512369852\n- Old Contact Number: +919876543210\n- New Contact Number: +919812345678\n\nPlease confirm once the update has been completed.\n\nRegards,\nRahul Sharma",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_3",
+    "category": "simple",
+    "sender": "emily.watson@example.com",
+    "subject": "Request for Account Balance Statement",
+    "body": "Dear Bank Team,\n\nI would like to request my account balance statement for the past three months for personal record keeping.\n\nHere are my details:\n- Full Name: Emily Watson\n- Account Number: 654789321456\n- Email: emily.watson@example.com\n\nPlease send the statement to my registered email address.\n\nThank you,\nEmily Watson",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_3",
+    "category": "complex",
+    "sender": "arjun.mehta@example.com",
+    "subject": "Request for Home Loan Application",
+    "body": "Dear Loan Department,\n\nI am interested in applying for a home loan to purchase a residential property. I would like to understand the eligibility requirements and start the application process.\n\nHere are my details:\n- Full Name: Arjun Mehta\n- Contact Number: +919911223344\n- Address: 78 Park Residency, New Delhi\n- Employment Type: Salaried\n- Employer: TechSolutions Pvt Ltd\n- Monthly Income: $8500\n- Requested Loan Amount: $150000\n\nI have attached my salary slips and identification documents for verification.\n\nRegards,\nArjun Mehta",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["salary_slip.pdf", "government_id.pdf"]
+  },
+  {
+    "id": "complex_4",
+    "category": "complex",
+    "sender": "linda.garcia@example.com",
+    "subject": "Dispute Regarding Incorrect Bank Charge",
+    "body": "Dear Customer Service,\n\nI noticed an incorrect service charge of $75 on my recent bank statement which I do not believe should have been applied to my account.\n\nHere are my details:\n- Full Name: Linda Garcia\n- Account Number: 459823176540\n- Contact Number: +14085551234\n- Transaction Date: 2025-08-02\n- Charge Description: Monthly Service Fee\n- Amount Charged: $75\n\nI have attached the statement highlighting the charge for your review.\n\nPlease investigate and reverse the charge if it was applied incorrectly.\n\nSincerely,\nLinda Garcia",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["bank_statement_august.pdf"]
+  },
+  {
+    "id": "complex_5",
+    "category": "complex",
+    "sender": "mohammed.ali@example.com",
+    "subject": "International Wire Transfer Request",
+    "body": "Dear Bank Team,\n\nI would like to initiate an international wire transfer to a supplier for a business payment.\n\nHere are the details:\n- Full Name: Mohammed Ali\n- Account Number: 908712345678\n- Contact Number: +971501234567\n- Recipient Name: Global Trade Ltd\n- Recipient Bank: HSBC London\n- SWIFT Code: HBUKGB4B\n- Transfer Amount: $12000\n- Purpose of Transfer: Business Payment\n\nPlease let me know if any additional documentation is required to process this transaction.\n\nRegards,\nMohammed Ali",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["invoice_payment.pdf", "business_contract.pdf"]
+  },
+ {
+    "id": "simple_4",
+    "category": "simple",
+    "sender": "alex.turner@example.com",
+    "subject": "Request to Update Mailing Address",
+    "body": "Dear Bank Team,\n\nI recently moved to a new residence and would like to update my mailing address associated with my bank account.\n\nDetails:\n- Full Name: Alex Turner\n- Account Number: 745812369541\n- Old Address: 22 Oak Street, Denver\n- New Address: 98 Maple Road, Denver\n\nPlease confirm once updated.\n\nThanks,\nAlex Turner",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_5",
+    "category": "simple",
+    "sender": "sophia.lee@example.com",
+    "subject": "Request for ATM Card Replacement",
+    "body": "Dear Bank Support,\n\nI misplaced my ATM card and would like to request a replacement.\n\nDetails:\n- Full Name: Sophia Lee\n- Account Number: 321654987456\n- Contact Number: +12025550123\n\nKindly process the request.\n\nRegards,\nSophia Lee",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_6",
+    "category": "simple",
+    "sender": "liam.brown@example.com",
+    "subject": "Inquiry About Account Opening Process",
+    "body": "Dear Bank Team,\n\nI would like to know the process and documents required to open a savings account.\n\nThank you,\nLiam Brown",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_7",
+    "category": "simple",
+    "sender": "olivia.davis@example.com",
+    "subject": "Check Status of Debit Card Delivery",
+    "body": "Dear Bank Support,\n\nI applied for a new debit card last week and would like to check its delivery status.\n\nDetails:\n- Full Name: Olivia Davis\n- Account Number: 456987123654\n\nThank you,\nOlivia Davis",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_8",
+    "category": "simple",
+    "sender": "ethan.white@example.com",
+    "subject": "Request for Bank Branch Working Hours",
+    "body": "Dear Bank Team,\n\nCould you please inform me about the working hours of the downtown branch?\n\nThanks,\nEthan White",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_9",
+    "category": "simple",
+    "sender": "ava.thomas@example.com",
+    "subject": "Enable SMS Alerts",
+    "body": "Dear Bank Team,\n\nI would like to enable SMS alerts for transactions on my account.\n\nDetails:\n- Full Name: Ava Thomas\n- Account Number: 897456123987\n\nThank you,\nAva Thomas",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_10",
+    "category": "simple",
+    "sender": "daniel.hall@example.com",
+    "subject": "Update Email Address",
+    "body": "Dear Bank Support,\n\nPlease update my registered email address to the one from which I am sending this message.\n\nDetails:\n- Full Name: Daniel Hall\n- Account Number: 741852963741\n\nRegards,\nDaniel Hall",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_11",
+    "category": "simple",
+    "sender": "mia.clark@example.com",
+    "subject": "Request for Cheque Book",
+    "body": "Dear Bank Team,\n\nI would like to request a new cheque book for my savings account.\n\nDetails:\n- Full Name: Mia Clark\n- Account Number: 852963741258\n\nThank you,\nMia Clark",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_12",
+    "category": "simple",
+    "sender": "noah.adams@example.com",
+    "subject": "Confirmation of Recent Deposit",
+    "body": "Dear Bank Team,\n\nI deposited $1200 yesterday at the branch and would like confirmation that it has been credited.\n\nDetails:\n- Full Name: Noah Adams\n- Account Number: 951753852456\n\nThanks,\nNoah Adams",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "simple_13",
+    "category": "simple",
+    "sender": "ella.scott@example.com",
+    "subject": "Inquiry About Minimum Balance Requirement",
+    "body": "Dear Bank Team,\n\nCould you please inform me about the minimum balance required to maintain my savings account?\n\nThanks,\nElla Scott",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+},
+    {
+    "id": "complex_6",
+    "category": "complex",
+    "sender": "rohit.verma@example.com",
+    "subject": "Loan Prepayment Request",
+    "body": "Dear Loan Department,\n\nI would like to make a partial prepayment toward my home loan.\n\nDetails:\n- Full Name: Rohit Verma\n- Loan Account Number: 9988776655\n- Prepayment Amount: $10000\n\nPlease inform me of the process and any charges.\n\nRegards,\nRohit Verma",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["loan_statement.pdf"]
+    },
+    {
+    "id": "complex_7",
+    "category": "complex",
+    "sender": "isabella.martin@example.com",
+    "subject": "Dispute on International Transaction",
+    "body": "Dear Fraud Investigation Team,\n\nI noticed an international charge of $430 that I did not authorize.\n\nDetails:\n- Full Name: Isabella Martin\n- Account Number: 785412369874\n- Merchant: GlobalShop Ltd\n- Date: 2025-08-05\n\nPlease investigate.\n\nRegards,\nIsabella Martin",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["transaction_record.pdf"]
+    },
+    {
+    "id": "complex_8",
+    "category": "complex",
+    "sender": "karan.malhotra@example.com",
+    "subject": "Business Account Opening Request",
+    "body": "Dear Bank Team,\n\nI would like to open a business account for my startup.\n\nDetails:\n- Full Name: Karan Malhotra\n- Company Name: TechNova Solutions\n- Annual Revenue: $120000\n\nDocuments attached.\n\nThanks,\nKaran Malhotra",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["company_registration.pdf","tax_certificate.pdf"]
+    },
+    {
+    "id": "complex_9",
+    "category": "complex",
+    "sender": "sara.wilson@example.com",
+    "subject": "Mortgage Loan Inquiry",
+    "body": "Dear Loan Team,\n\nI would like to apply for a mortgage loan.\n\nDetails:\n- Full Name: Sara Wilson\n- Monthly Income: $9000\n- Loan Amount Requested: $200000\n\nDocuments attached.\n\nRegards,\nSara Wilson",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["income_proof.pdf","tax_returns.pdf"]
+    },
+    {
+    "id": "complex_10",
+    "category": "complex",
+    "sender": "peter.evans@example.com",
+    "subject": "Unauthorized Login Attempt",
+    "body": "Dear Security Team,\n\nI received alerts regarding multiple login attempts on my account.\n\nDetails:\n- Full Name: Peter Evans\n- Account Number: 654987321456\n\nPlease investigate.\n\nThanks,\nPeter Evans",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["security_alert.png"]
+    },
+    {
+    "id": "complex_11",
+    "category": "complex",
+    "sender": "harsh.gupta@example.com",
+    "subject": "Credit Limit Increase Request",
+    "body": "Dear Credit Card Team,\n\nI would like to request an increase in my credit limit.\n\nDetails:\n- Full Name: Harsh Gupta\n- Current Limit: $8000\n- Requested Limit: $15000\n\nRegards,\nHarsh Gupta",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["income_proof.pdf"]
+    },
+    {
+    "id": "complex_12",
+    "category": "complex",
+    "sender": "julia.roberts@example.com",
+    "subject": "Large Transaction Approval Request",
+    "body": "Dear Bank Team,\n\nI am planning to make a large transaction and would like to ensure it goes through smoothly.\n\nDetails:\n- Full Name: Julia Roberts\n- Account Number: 321789654987\n- Transaction Amount: $25000\n\nRegards,\nJulia Roberts",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "complex_13",
+    "category": "complex",
+    "sender": "omar.hassan@example.com",
+    "subject": "Business Payment Delay Issue",
+    "body": "Dear Bank Team,\n\nA business payment I initiated has not yet reached the recipient.\n\nDetails:\n- Full Name: Omar Hassan\n- Transaction Amount: $5000\n\nPlease investigate.\n\nThanks,\nOmar Hassan",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["invoice.pdf"]
+    },
+    {
+    "id": "complex_14",
+    "category": "complex",
+    "sender": "victor.nguyen@example.com",
+    "subject": "International Card Activation",
+    "body": "Dear Bank Team,\n\nI will be traveling abroad and need my credit card activated for international usage.\n\nDetails:\n- Full Name: Victor Nguyen\n- Travel Dates: Sept 1 – Sept 15\n\nRegards,\nVictor Nguyen",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+    },
+    {
+    "id": "complex_15",
+    "category": "complex",
+    "sender": "anita.desai@example.com",
+    "subject": "Loan Restructuring Request",
+    "body": "Dear Loan Department,\n\nDue to recent financial changes, I would like to discuss restructuring my loan repayment schedule.\n\nDetails:\n- Full Name: Anita Desai\n- Loan Account: 963258741852\n\nThanks,\nAnita Desai",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["loan_details.pdf"]
+    },
+  {
+    "id": "simple_16",
+    "category": "simple",
+    "sender": "aarav.kapoor@example.com",
+    "subject": "Request for Passbook Update",
+    "body": "Dear Bank Team,\n\nI would like to update my passbook at the branch. Please let me know the process.\n\nThanks,\nAarav Kapoor",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_17",
+    "category": "simple",
+    "sender": "riya.patel@example.com",
+    "subject": "Activate Net Banking",
+    "body": "Dear Bank Support,\n\nI would like to activate net banking for my account.\n\nDetails:\n- Full Name: Riya Patel\n- Account Number: 741258963852\n\nThanks,\nRiya Patel",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_18",
+    "category": "simple",
+    "sender": "kabir.jain@example.com",
+    "subject": "Request for Account Closure",
+    "body": "Dear Bank Team,\n\nI would like to close my savings account.\n\nDetails:\n- Full Name: Kabir Jain\n- Account Number: 963852741456\n\nRegards,\nKabir Jain",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_19",
+    "category": "simple",
+    "sender": "meera.nair@example.com",
+    "subject": "Request for Interest Certificate",
+    "body": "Dear Bank Team,\n\nPlease provide me with an interest certificate for my savings account.\n\nThanks,\nMeera Nair",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_20",
+    "category": "simple",
+    "sender": "rohan.das@example.com",
+    "subject": "Update PAN Details",
+    "body": "Dear Bank Support,\n\nI would like to update my PAN details in my account.\n\nRegards,\nRohan Das",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_21",
+    "category": "simple",
+    "sender": "sneha.reddy@example.com",
+    "subject": "Request for Mini Statement",
+    "body": "Dear Bank Team,\n\nPlease provide a mini statement of my recent transactions.\n\nThanks,\nSneha Reddy",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_22",
+    "category": "simple",
+    "sender": "dev.mishra@example.com",
+    "subject": "Reset ATM PIN",
+    "body": "Dear Bank Support,\n\nI would like to reset my ATM PIN.\n\nThanks,\nDev Mishra",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_23",
+    "category": "simple",
+    "sender": "pooja.shah@example.com",
+    "subject": "Request for Account Statement",
+    "body": "Dear Bank Team,\n\nPlease send my account statement for last month.\n\nThanks,\nPooja Shah",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_24",
+    "category": "simple",
+    "sender": "vishal.yadav@example.com",
+    "subject": "Check Loan Eligibility",
+    "body": "Dear Bank Team,\n\nI would like to know if I am eligible for a personal loan.\n\nThanks,\nVishal Yadav",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_25",
+    "category": "simple",
+    "sender": "nisha.arora@example.com",
+    "subject": "Request for Debit Card Activation",
+    "body": "Dear Bank Support,\n\nPlease activate my debit card.\n\nThanks,\nNisha Arora",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_26",
+    "category": "simple",
+    "sender": "aditya.singh@example.com",
+    "subject": "Change Account Type",
+    "body": "Dear Bank Team,\n\nI would like to change my account type to a premium savings account.\n\nRegards,\nAditya Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_27",
+    "category": "simple",
+    "sender": "kavya.iyer@example.com",
+    "subject": "Request for SMS Alert Deactivation",
+    "body": "Dear Bank Support,\n\nPlease deactivate SMS alerts for my account.\n\nThanks,\nKavya Iyer",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_28",
+    "category": "simple",
+    "sender": "manish.tiwari@example.com",
+    "subject": "Branch Address Inquiry",
+    "body": "Dear Bank Team,\n\nPlease provide the address of your nearest branch.\n\nThanks,\nManish Tiwari",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_29",
+    "category": "simple",
+    "sender": "ananya.bose@example.com",
+    "subject": "Request for Fixed Deposit Details",
+    "body": "Dear Bank Team,\n\nPlease share details about fixed deposit schemes.\n\nThanks,\nAnanya Bose",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_30",
+    "category": "simple",
+    "sender": "rahul.verma@example.com",
+    "subject": "Check Transaction Status",
+    "body": "Dear Bank Support,\n\nI would like to check the status of a recent transaction.\n\nThanks,\nRahul Verma",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_16",
+    "category": "complex",
+    "sender": "deepak.chopra@example.com",
+    "subject": "Multiple Unauthorized Transactions",
+    "body": "Dear Fraud Team,\n\nI noticed multiple unauthorized transactions on my account.\n\nDetails:\n- Account Number: 741258963852\n- Total Amount: $1500\n\nPlease investigate urgently.\n\nRegards,\nDeepak Chopra",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["transaction_log.pdf"]
+  },
+  {
+    "id": "complex_17",
+    "category": "complex",
+    "sender": "priya.mehta@example.com",
+    "subject": "Loan Approval Follow-up",
+    "body": "Dear Loan Team,\n\nI applied for a personal loan last week and would like an update.\n\nDetails:\n- Application ID: LN12345\n\nRegards,\nPriya Mehta",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_18",
+    "category": "complex",
+    "sender": "daniel.smith@example.com",
+    "subject": "Chargeback Request",
+    "body": "Dear Support Team,\n\nI would like to initiate a chargeback for a transaction.\n\nDetails:\n- Amount: $200\n- Merchant: QuickBuy\n\nRegards,\nDaniel Smith",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["receipt.pdf"]
+  },
+  {
+    "id": "complex_19",
+    "category": "complex",
+    "sender": "fatima.khan@example.com",
+    "subject": "Loan Foreclosure Request",
+    "body": "Dear Loan Department,\n\nI would like to foreclose my loan.\n\nDetails:\n- Loan Account: 852963741258\n\nRegards,\nFatima Khan",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["loan_statement.pdf"]
+  },
+  {
+    "id": "complex_20",
+    "category": "complex",
+    "sender": "george.wilson@example.com",
+    "subject": "Dispute on Duplicate Transaction",
+    "body": "Dear Bank Team,\n\nI was charged twice for the same transaction.\n\nDetails:\n- Amount: $120\n\nPlease resolve.\n\nThanks,\nGeorge Wilson",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["statement.pdf"]
+  },
+  {
+    "id": "complex_21",
+    "category": "complex",
+    "sender": "rakesh.sharma@example.com",
+    "subject": "Business Loan Application",
+    "body": "Dear Bank Team,\n\nI want to apply for a business loan.\n\nDetails:\n- Revenue: $200000\n\nRegards,\nRakesh Sharma",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["financials.pdf"]
+  },
+  {
+    "id": "complex_22",
+    "category": "complex",
+    "sender": "sarah.jones@example.com",
+    "subject": "Credit Card Fraud Report",
+    "body": "Dear Team,\n\nMy card was used fraudulently.\n\nAmount: $500\n\nRegards,\nSarah Jones",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["fraud_proof.png"]
+  },
+  {
+    "id": "complex_23",
+    "category": "complex",
+    "sender": "amit.patel@example.com",
+    "subject": "High Value Transfer Approval",
+    "body": "Dear Bank Team,\n\nPlease approve my high value transfer.\n\nAmount: $30000\n\nThanks,\nAmit Patel",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_24",
+    "category": "complex",
+    "sender": "lisa.anderson@example.com",
+    "subject": "Mortgage Refinancing Request",
+    "body": "Dear Loan Team,\n\nI want to refinance my mortgage.\n\nRegards,\nLisa Anderson",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["mortgage_details.pdf"]
+  },
+  {
+    "id": "complex_25",
+    "category": "complex",
+    "sender": "vikram.sethi@example.com",
+    "subject": "Card Limit Increase with Documents",
+    "body": "Dear Bank Team,\n\nRequesting limit increase.\n\nIncome proof attached.\n\nRegards,\nVikram Sethi",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["salary.pdf"]
+  },
+  {
+    "id": "complex_26",
+    "category": "complex",
+    "sender": "anna.white@example.com",
+    "subject": "Transaction Failure Issue",
+    "body": "Dear Bank Team,\n\nA transaction failed but amount deducted.\n\nPlease resolve.\n\nThanks,\nAnna White",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["txn_error.png"]
+  },
+  {
+    "id": "complex_27",
+    "category": "complex",
+    "sender": "yusuf.ali@example.com",
+    "subject": "International Payment Delay",
+    "body": "Dear Bank Team,\n\nMy international payment is delayed.\n\nAmount: $8000\n\nThanks,\nYusuf Ali",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["invoice.pdf"]
+  },
+  {
+    "id": "complex_28",
+    "category": "complex",
+    "sender": "natalie.green@example.com",
+    "subject": "Fraudulent ATM Withdrawal",
+    "body": "Dear Bank Team,\n\nUnauthorized ATM withdrawal occurred.\n\nAmount: $600\n\nRegards,\nNatalie Green",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["atm_slip.png"]
+  },
+  {
+    "id": "complex_29",
+    "category": "complex",
+    "sender": "rajiv.kumar@example.com",
+    "subject": "Loan EMI Rescheduling",
+    "body": "Dear Loan Team,\n\nRequest EMI rescheduling.\n\nThanks,\nRajiv Kumar",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["loan_doc.pdf"]
+  },
+  {
+    "id": "complex_30",
+    "category": "complex",
+    "sender": "emma.harris@example.com",
+    "subject": "Dispute Over Subscription Charge",
+    "body": "Dear Bank Team,\n\nIncorrect subscription charge detected.\n\nAmount: $45\n\nRegards,\nEmma Harris",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["subscription.png"]
+  }
+]

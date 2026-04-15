@@ -5,6 +5,7 @@ import uvicorn
 import nest_asyncio
 import sys
 import os
+import json
 
 # Ensure import path is correct
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
@@ -125,6 +126,36 @@ for agent in remote_agents:
 
 
 # --- Test direct communication (async block in sync script) ---
+async def compare_requests():
+    """Compare sequential vs parallel request processing using email dataset."""
+    # Load email dataset
+    with open("email_dataset.json", "r") as f:
+        email_dataset = json.load(f)
+
+    # Build requests from dataset (send to Email Categorizer)
+    requests_to_run = []
+    for email in email_dataset:
+        prompt = f"please categorize this email for me {json.dumps(email)}"
+        requests_to_run.append(("http://localhost:10022", prompt))  # Email Categorizer URL
+
+    print("=== Sequential Execution ===")
+    seq_start = time.perf_counter()
+    for url, prompt in requests_to_run:
+        response = await a2a_client.create_task(url, prompt)
+        print(f"{url} -> {response[:100]}...")
+    seq_duration = time.perf_counter() - seq_start
+    print(f"Sequential total time: {seq_duration:.2f} seconds\n")
+
+    print("=== Parallel Execution ===")
+    par_start = time.perf_counter()
+    tasks = [asyncio.create_task(a2a_client.create_task(url, prompt))
+             for url, prompt in requests_to_run]
+    responses = await asyncio.gather(*tasks)
+    par_duration = time.perf_counter() - par_start
+    print(f"Parallel total time: {par_duration:.2f} seconds\n")
+    for url, response in zip([r[0] for r in requests_to_run], responses):
+        print(f"{url} -> {response[:100]}...")
+
 async def test_direct_communication():
     print("\n🎯 Testing direct agent calls...\n")
 
@@ -155,4 +186,5 @@ async def test_direct_communication():
 
 
 # Run async test block inside sync script
+asyncio.run(compare_requests())
 asyncio.run(test_direct_communication())
