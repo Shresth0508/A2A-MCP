@@ -19,6 +19,27 @@ class CreditApplication(BaseModel):
     requested_credit_limit: str | None = None
     attachments: list[str] = []
 
+class FraudReport(BaseModel):
+    full_name: str
+    email: str
+    contact_number: Optional[str] = None
+    account_number: Optional[str] = None
+
+    fraud_type: str  # Unauthorized Transaction / Phishing / Card Skimming etc.
+    transaction_details: Optional[str] = None
+
+    reported_date: str  # can be extracted or auto-filled
+
+    attachments: List[str] = []
+
+@app.post("/fraud-report")
+def create_fraud_report(report: FraudReport):
+    result = fraud_reports.insert_one(report.model_dump())
+    return {
+        "status": "success",
+        "inserted_id": str(result.inserted_id)
+    }
+
 @app.post("/credit-application")
 def create_credit_application(app_data: CreditApplication):
     result = credit_applications.insert_one(app_data.model_dump())
