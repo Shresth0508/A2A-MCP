@@ -978,5 +978,505 @@
     "recipients": [],
     "cc": [],
     "attachments": []
+  },
+  {
+    "id": "simple_51",
+    "category": "simple",
+    "sender": "aarush.khanna@example.com",
+    "subject": "Request for Debit Card Limit Details",
+    "body": "Dear Bank Team,\n\nPlease share the daily transaction limit for my debit card.\n\nThanks,\nAarush Khanna",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_52",
+    "category": "simple",
+    "sender": "riya.sen@example.com",
+    "subject": "Check Standing Instruction Status",
+    "body": "Dear Bank Team,\n\nI want to check the status of my standing instruction.\n\nThanks,\nRiya Sen",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_53",
+    "category": "simple",
+    "sender": "devansh.mehra@example.com",
+    "subject": "Request for Account Upgrade Options",
+    "body": "Dear Bank Team,\n\nPlease provide details on upgrading my account.\n\nThanks,\nDevansh Mehra",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_54",
+    "category": "simple",
+    "sender": "tanvi.bansal@example.com",
+    "subject": "Enable International Transactions on Debit Card",
+    "body": "Dear Bank Support,\n\nPlease enable international usage for my debit card.\n\nThanks,\nTanvi Bansal",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_55",
+    "category": "simple",
+    "sender": "nikhil.anand@example.com",
+    "subject": "Check ECS Mandate Status",
+    "body": "Dear Bank Team,\n\nPlease confirm if my ECS mandate is active.\n\nThanks,\nNikhil Anand",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_56",
+    "category": "simple",
+    "sender": "sanya.gupta@example.com",
+    "subject": "Request for Loan Statement",
+    "body": "Dear Bank Team,\n\nPlease send my detailed loan statement.\n\nThanks,\nSanya Gupta",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_57",
+    "category": "simple",
+    "sender": "arjun.singh@example.com",
+    "subject": "Check Beneficiary Addition Status",
+    "body": "Dear Bank Team,\n\nPlease confirm if my beneficiary has been added successfully.\n\nThanks,\nArjun Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_58",
+    "category": "simple",
+    "sender": "meera.iyer@example.com",
+    "subject": "Request for Account Closure Charges",
+    "body": "Dear Bank Team,\n\nPlease inform charges applicable for closing my account.\n\nThanks,\nMeera Iyer",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_59",
+    "category": "simple",
+    "sender": "rohan.bajaj@example.com",
+    "subject": "Check Credit Card Reward Points",
+    "body": "Dear Bank Team,\n\nPlease share my current reward points balance.\n\nThanks,\nRohan Bajaj",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_60",
+    "category": "simple",
+    "sender": "anika.reddy@example.com",
+    "subject": "Request for Net Banking User ID",
+    "body": "Dear Bank Team,\n\nI forgot my net banking user ID. Please assist.\n\nThanks,\nAnika Reddy",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_61",
+    "category": "simple",
+    "sender": "varun.das@example.com",
+    "subject": "Check Debit Card Dispatch Status",
+    "body": "Dear Bank Team,\n\nPlease share dispatch status of my debit card.\n\nThanks,\nVarun Das",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_62",
+    "category": "simple",
+    "sender": "shruti.nair@example.com",
+    "subject": "Request for Transaction Limit Increase",
+    "body": "Dear Bank Team,\n\nPlease increase my transaction limit.\n\nThanks,\nShruti Nair",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_63",
+    "category": "simple",
+    "sender": "amitabh.jain@example.com",
+    "subject": "Check Fixed Deposit Maturity Date",
+    "body": "Dear Bank Team,\n\nPlease inform maturity date of my FD.\n\nThanks,\nAmitabh Jain",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_64",
+    "category": "simple",
+    "sender": "priya.kulkarni@example.com",
+    "subject": "Request for SMS Alert Charges",
+    "body": "Dear Bank Team,\n\nPlease share SMS alert charges.\n\nThanks,\nPriya Kulkarni",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_65",
+    "category": "simple",
+    "sender": "harsh.vyas@example.com",
+    "subject": "Check KYC Status",
+    "body": "Dear Bank Team,\n\nPlease confirm my KYC status.\n\nThanks,\nHarsh Vyas",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_66",
+    "category": "simple",
+    "sender": "isha.singhania@example.com",
+    "subject": "Request for Nominee Removal",
+    "body": "Dear Bank Team,\n\nPlease remove nominee from my account.\n\nThanks,\nIsha Singhania",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_67",
+    "category": "simple",
+    "sender": "yuvraj.thakur@example.com",
+    "subject": "Check Credit Card Billing Cycle",
+    "body": "Dear Bank Team,\n\nPlease inform my billing cycle details.\n\nThanks,\nYuvraj Thakur",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_68",
+    "category": "simple",
+    "sender": "kiran.pillai@example.com",
+    "subject": "Request for Cheque Stop Payment Charges",
+    "body": "Dear Bank Team,\n\nPlease inform stop cheque charges.\n\nThanks,\nKiran Pillai",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_69",
+    "category": "simple",
+    "sender": "tanmay.shah@example.com",
+    "subject": "Check Loan EMI Date",
+    "body": "Dear Bank Team,\n\nPlease confirm EMI deduction date.\n\nThanks,\nTanmay Shah",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_70",
+    "category": "simple",
+    "sender": "neha.chopra@example.com",
+    "subject": "Request for Credit Card Statement Email Change",
+    "body": "Dear Bank Team,\n\nPlease update email for card statements.\n\nThanks,\nNeha Chopra",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_71",
+    "category": "simple",
+    "sender": "rahul.kohli@example.com",
+    "subject": "Check Overdraft Facility",
+    "body": "Dear Bank Team,\n\nPlease confirm if overdraft is enabled.\n\nThanks,\nRahul Kohli",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_72",
+    "category": "simple",
+    "sender": "anushka.dutta@example.com",
+    "subject": "Request for Account Opening Form",
+    "body": "Dear Bank Team,\n\nPlease share account opening form.\n\nThanks,\nAnushka Dutta",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_73",
+    "category": "simple",
+    "sender": "kartik.agarwal@example.com",
+    "subject": "Check ATM Withdrawal Charges",
+    "body": "Dear Bank Team,\n\nPlease inform ATM withdrawal charges.\n\nThanks,\nKartik Agarwal",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_74",
+    "category": "simple",
+    "sender": "pooja.saxena@example.com",
+    "subject": "Request for Digital Passbook",
+    "body": "Dear Bank Team,\n\nPlease enable digital passbook access.\n\nThanks,\nPooja Saxena",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "simple_75",
+    "category": "simple",
+    "sender": "vinit.mishra@example.com",
+    "subject": "Check UPI ID",
+    "body": "Dear Bank Team,\n\nPlease confirm my UPI ID.\n\nThanks,\nVinit Mishra",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_51",
+    "category": "complex",
+    "sender": "rahul.saxena@example.com",
+    "subject": "Joint Account Conversion Request",
+    "body": "Dear Bank Team,\n\nI want to convert my savings account into a joint account.\n\nDetails:\n- Account Number: 123456789012\n- Joint Holder: Anjali Saxena\n\nRegards,\nRahul Saxena",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["joint_form.pdf"]
+  },
+  {
+    "id": "complex_52",
+    "category": "complex",
+    "sender": "ananya.verma@example.com",
+    "subject": "Dormant Account Reactivation",
+    "body": "Dear Bank Team,\n\nMy account has become dormant. Please reactivate it.\n\nDetails:\n- Account Number: 987654321098\n\nThanks,\nAnanya Verma",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["kyc_doc.pdf"]
+  },
+  {
+    "id": "complex_53",
+    "category": "complex",
+    "sender": "karan.bhatia@example.com",
+    "subject": "Lien Removal Request",
+    "body": "Dear Bank Team,\n\nPlease remove lien marked on my account.\n\nDetails:\n- Amount: $2000\n\nRegards,\nKaran Bhatia",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["lien_doc.pdf"]
+  },
+  {
+    "id": "complex_54",
+    "category": "complex",
+    "sender": "pooja.mehta@example.com",
+    "subject": "Salary Account Conversion Issue",
+    "body": "Dear Bank Team,\n\nMy salary account was not converted after job change.\n\nPlease update.\n\nThanks,\nPooja Mehta",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_55",
+    "category": "complex",
+    "sender": "rakesh.nair@example.com",
+    "subject": "Premature FD Withdrawal Request",
+    "body": "Dear Bank Team,\n\nI want to prematurely withdraw my FD.\n\nDetails:\n- FD Amount: $5000\n\nRegards,\nRakesh Nair",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_56",
+    "category": "complex",
+    "sender": "megha.shah@example.com",
+    "subject": "Auto Debit Failure for Loan EMI",
+    "body": "Dear Bank Team,\n\nAuto debit for my EMI failed.\n\nPlease assist.\n\nThanks,\nMegha Shah",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_57",
+    "category": "complex",
+    "sender": "aditya.iyer@example.com",
+    "subject": "Multiple Beneficiary Addition Limit Issue",
+    "body": "Dear Bank Team,\n\nUnable to add multiple beneficiaries.\n\nPlease assist.\n\nThanks,\nAditya Iyer",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_58",
+    "category": "complex",
+    "sender": "nidhi.singh@example.com",
+    "subject": "Mismatch in Account Name",
+    "body": "Dear Bank Team,\n\nThere is a mismatch in my account name across records.\n\nPlease correct.\n\nThanks,\nNidhi Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["id_proof.pdf"]
+  },
+  {
+    "id": "complex_59",
+    "category": "complex",
+    "sender": "vishal.gupta@example.com",
+    "subject": "Forex Card Reload Issue",
+    "body": "Dear Bank Team,\n\nUnable to reload my forex card.\n\nAmount: $1000\n\nThanks,\nVishal Gupta",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_60",
+    "category": "complex",
+    "sender": "sneha.menon@example.com",
+    "subject": "Account Statement Discrepancy",
+    "body": "Dear Bank Team,\n\nMy account statement shows incorrect balance.\n\nPlease verify.\n\nThanks,\nSneha Menon",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["statement.pdf"]
+  },
+  {
+    "id": "complex_61",
+    "category": "complex",
+    "sender": "amit.pandey@example.com",
+    "subject": "Recurring Deposit Closure Issue",
+    "body": "Dear Bank Team,\n\nUnable to close my RD online.\n\nPlease assist.\n\nThanks,\nAmit Pandey",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_62",
+    "category": "complex",
+    "sender": "riya.jain@example.com",
+    "subject": "Net Banking Locked Out",
+    "body": "Dear Bank Team,\n\nMy net banking is locked.\n\nPlease unlock.\n\nThanks,\nRiya Jain",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_63",
+    "category": "complex",
+    "sender": "manish.kumar@example.com",
+    "subject": "NACH Mandate Cancellation Request",
+    "body": "Dear Bank Team,\n\nPlease cancel my NACH mandate.\n\nThanks,\nManish Kumar",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["mandate.pdf"]
+  },
+  {
+    "id": "complex_64",
+    "category": "complex",
+    "sender": "shraddha.patil@example.com",
+    "subject": "Incorrect IFSC Mapping Issue",
+    "body": "Dear Bank Team,\n\nMy IFSC code is incorrectly mapped.\n\nPlease fix.\n\nThanks,\nShraddha Patil",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_65",
+    "category": "complex",
+    "sender": "deepak.joshi@example.com",
+    "subject": "Salary Credit Split Issue",
+    "body": "Dear Bank Team,\n\nMy salary credited in multiple parts unexpectedly.\n\nPlease investigate.\n\nThanks,\nDeepak Joshi",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_66",
+    "category": "complex",
+    "sender": "kavya.sharma@example.com",
+    "subject": "Cheque Bounce Penalty Waiver",
+    "body": "Dear Bank Team,\n\nRequest waiver of cheque bounce penalty.\n\nThanks,\nKavya Sharma",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_67",
+    "category": "complex",
+    "sender": "rahul.tiwari@example.com",
+    "subject": "Loan Account Transfer Request",
+    "body": "Dear Bank Team,\n\nI want to transfer my loan account.\n\nThanks,\nRahul Tiwari",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_68",
+    "category": "complex",
+    "sender": "anita.agarwal@example.com",
+    "subject": "Credit Card Upgrade Request",
+    "body": "Dear Bank Team,\n\nI want to upgrade my credit card.\n\nThanks,\nAnita Agarwal",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["income.pdf"]
+  },
+  {
+    "id": "complex_69",
+    "category": "complex",
+    "sender": "suresh.yadav@example.com",
+    "subject": "Dormant FD Activation",
+    "body": "Dear Bank Team,\n\nMy FD is inactive.\n\nPlease activate.\n\nThanks,\nSuresh Yadav",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_70",
+    "category": "complex",
+    "sender": "pooja.kapoor@example.com",
+    "subject": "Incorrect Loan Tenure Issue",
+    "body": "Dear Bank Team,\n\nLoan tenure is incorrect in records.\n\nPlease correct.\n\nThanks,\nPooja Kapoor",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["loan_doc.pdf"]
+  },
+  {
+    "id": "complex_71",
+    "category": "complex",
+    "sender": "amitabh.singh@example.com",
+    "subject": "Account Merge Request",
+    "body": "Dear Bank Team,\n\nPlease merge my two accounts.\n\nThanks,\nAmitabh Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["account_details.pdf"]
+  },
+  {
+    "id": "complex_72",
+    "category": "complex",
+    "sender": "neha.das@example.com",
+    "subject": "UPI AutoPay Cancellation",
+    "body": "Dear Bank Team,\n\nCancel my UPI autopay.\n\nThanks,\nNeha Das",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_73",
+    "category": "complex",
+    "sender": "rajat.khanna@example.com",
+    "subject": "Forex Conversion Rate Dispute",
+    "body": "Dear Bank Team,\n\nIncorrect forex rate applied.\n\nPlease review.\n\nThanks,\nRajat Khanna",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["txn.pdf"]
+  },
+  {
+    "id": "complex_74",
+    "category": "complex",
+    "sender": "divya.verma@example.com",
+    "subject": "Locker Access Issue",
+    "body": "Dear Bank Team,\n\nUnable to access my locker.\n\nPlease assist.\n\nThanks,\nDivya Verma",
+    "recipients": [],
+    "cc": [],
+    "attachments": []
+  },
+  {
+    "id": "complex_75",
+    "category": "complex",
+    "sender": "rohit.singh@example.com",
+    "subject": "Incorrect TDS Deduction",
+    "body": "Dear Bank Team,\n\nTDS deducted incorrectly on my account.\n\nPlease rectify.\n\nThanks,\nRohit Singh",
+    "recipients": [],
+    "cc": [],
+    "attachments": ["tds_statement.pdf"]
   }
 ]
